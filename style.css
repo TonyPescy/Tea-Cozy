@@ -1,0 +1,64 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.copyright {
+    position: fixed;
+    bottom: 0;
+    left: 20px;
+    margin: 0 0 0 0;
+}
+
+.logo {
+    float: left;
+    text-align: center;
+    height: 50px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    position: fixed;
+    top: 30px;
+    right: 0;
+}
+
+#linktext {
+    display: inline-flex;
+    justify-content: space-between;
+    text-decoration: underline;
+    margin: 10px;
+    z-index: 2;
+}
+
+.fixhead {
+    height: 69px;
+    text-align: left;
+    padding: 9.5px;
+    border-bottom: 1px solid seashell;
+}
+
+.om {
+    position: relative;
+}
+
+#ombanner {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+}
+
+#ompic {
+    position: static;
+    width: 1200px;
+    height: 700px;
+}
