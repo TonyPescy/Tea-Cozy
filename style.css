@@ -82,3 +82,50 @@
     justify-content: space-around;
     margin: 10px;
 }
+
+#locpic {
+    z-index: -1;
+}
+
+#lochead {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+#locban {
+    display: inline-flex;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    justify-content: space-between;
+}
+
+#locblock {
+    margin: 20px;
+    padding: 0px;
+    opacity: 1;
+    width: 300px;
+    height: 200px
+}
+
+.loc {
+    position: relative;
+    z-index: -1;
+    display: block;
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    padding: 200px 0px 0px 0px;
+}
+
+.contact {
+    position: absolute;
+    top: 275%;
+    width: 100%;
+    display: block;
+}
